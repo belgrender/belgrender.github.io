@@ -6,7 +6,7 @@ export default defineConfig(({ mode }) => {
   const env = loadEnv(mode, ".", "");
 
   return {
-    base: "/belgrender/", // 👈 ESSENCIAL PARA GITHUB PAGES
+    base: "/", // 👈 ESSENCIAL PARA GITHUB PAGES
 
     server: {
       port: 3000,
